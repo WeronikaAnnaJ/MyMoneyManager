@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">MyMoneyManager</string>
+    <string name="MPK">Miejsce powiązane</string>
+    <string name="Amount">Kwota</string>
+    <string name="Date">"Data "</string>
+    <string name="Add">dodaj</string>
+    <string name="Type">typ</string>
+
+    <string-array name="type">
+        <item>Wydatek</item>
+        <item>Dochód</item>
+    </string-array>
+
+
+    <string-array name="category">
+        <item>Jedzenie</item>
+        <item>Zdrowie</item>
+        <item>Opłaty</item>
+        <item>Rozrywka</item>
+        <item>Inne</item>
+    </string-array>
+    <string-array name="months">
+        <item>1 - Styczeń</item>
+        <item>2 - Luty</item>
+        <item>3 - Marzec</item>
+        <item>4 - Kwiecień</item>
+        <item>5 - Maj</item>
+        <item>6 - Czerwiec</item>
+        <item>7 - Lipiec</item>
+        <item>8 - Sierpień</item>
+        <item>9 - Wrzesień</item>
+        <item>10 - Październik</item>
+        <item>11 - Listopad</item>
+        <item>12 - Grudzień</item>
+    </string-array>
+    <string name="title_activity_record">Record</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

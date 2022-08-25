@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sendButton2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecordActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="398dp"
+        android:layout_height="632dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/b_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="78dp"
+            android:layout_marginEnd="295dp"
+            android:layout_marginBottom="511dp"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="181dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="135dp"
+            android:layout_marginBottom="567dp"
+            android:text="Twój wpis" />
+
+        <View
+            android:id="@+id/scrView"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="78dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="68dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="68dp"
+            android:layout_height="20dp"
+            android:layout_alignStart="@+id/scrView"
+            android:layout_alignTop="@+id/scrView"
+            android:layout_alignEnd="@+id/scrView"
+            android:layout_alignBottom="@+id/scrView"
+            android:layout_marginStart="147dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="137dp"
+            android:layout_marginBottom="454dp"
+            android:text="Typ wpisu" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="57dp"
+            android:layout_height="23dp"
+            android:layout_alignStart="@+id/scrView"
+            android:layout_alignTop="@+id/scrView"
+            android:layout_alignEnd="@+id/scrView"
+            android:layout_alignBottom="@+id/scrView"
+            android:layout_marginStart="292dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="406dp"
+            android:text="Dochód" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="62dp"
+            android:layout_height="21dp"
+            android:layout_alignStart="@+id/scrView"
+            android:layout_alignTop="@+id/scrView"
+            android:layout_alignEnd="@+id/scrView"
+            android:layout_alignBottom="@+id/scrView"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="57dp"
+            android:layout_marginEnd="280dp"
+            android:layout_marginBottom="407dp"
+            android:text="Wydatek" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="50dp"
+            android:layout_height="24dp"
+            android:layout_alignStart="@+id/scrView"
+            android:layout_alignTop="@+id/scrView"
+            android:layout_alignEnd="@+id/scrView"
+            android:layout_alignBottom="@+id/scrView"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="146dp"
+            android:layout_marginBottom="362dp"
+            android:text="Kwota" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="76dp"
+            android:layout_height="35dp"
+            android:layout_alignStart="@+id/scrView"
+            android:layout_alignTop="@+id/scrView"
+            android:layout_alignEnd="@+id/scrView"
+            android:layout_alignBottom="@+id/scrView"
+            android:layout_marginStart="127dp"
+            android:layout_marginTop="171dp"
+            android:layout_marginEnd="120dp"
+            android:layout_marginBottom="292dp"
+            android:text="Data transakcji" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="184dp"
+            android:layout_height="19dp"
+            android:layout_alignStart="@+id/scrView"
+            android:layout_alignTop="@+id/scrView"
+            android:layout_alignEnd="@+id/scrView"
+            android:layout_alignBottom="@+id/scrView"
+            android:layout_marginStart="82dp"
+            android:layout_marginTop="341dp"
+            android:layout_marginEnd="86dp"
+            android:layout_marginBottom="125dp"
+            android:text="Szczegóły miejca transakcji" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="70dp"
+            android:layout_height="18dp"
+            android:layout_alignStart="@+id/scrView"
+            android:layout_alignTop="@+id/scrView"
+            android:layout_alignEnd="@+id/scrView"
+            android:layout_alignBottom="@+id/scrView"
+            android:layout_marginStart="138dp"
+            android:layout_marginTop="265dp"
+            android:layout_marginEnd="144dp"
+            android:layout_marginBottom="202dp"
+            android:text="Kategoria " />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/scrView"
+            android:layout_alignTop="@+id/scrView"
+            android:layout_alignEnd="@+id/scrView"
+            android:layout_alignBottom="@+id/scrView"
+            android:layout_marginStart="288dp"
+            android:layout_marginTop="138dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="321dp"
+            android:text="gr" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/scrView"
+            android:layout_alignTop="@+id/scrView"
+            android:layout_alignEnd="@+id/scrView"
+            android:layout_alignBottom="@+id/scrView"
+            android:layout_marginStart="133dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="181dp"
+            android:layout_marginBottom="325dp"
+            android:text="zł" />
+
+        <Switch
+            android:id="@+id/s_type2"
+            android:layout_width="132dp"
+            android:layout_height="33dp"
+            android:layout_alignStart="@+id/scrView"
+            android:layout_alignTop="@+id/scrView"
+            android:layout_alignEnd="@+id/scrView"
+            android:layout_alignBottom="@+id/scrView"
+            android:layout_marginStart="77dp"
+            android:layout_marginTop="49dp"
+            android:layout_marginEnd="143dp"
+            android:layout_marginBottom="404dp"
+            android:thumbTint="@drawable/switch_thumb"
+            android:trackTint="@drawable/switch_track" />
+
+        <EditText
+            android:id="@+id/et_amaunt_zl2"
+            android:layout_width="104dp"
+            android:layout_height="49dp"
+            android:layout_alignStart="@+id/scrView"
+            android:layout_alignEnd="@+id/scrView"
+            android:layout_alignBottom="@+id/scrView"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="198dp"
+            android:layout_marginEnd="223dp"
+            android:layout_marginBottom="316dp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_amaunt_gr2"
+            android:layout_width="98dp"
+            android:layout_height="51dp"
+            android:layout_alignStart="@+id/scrView"
+            android:layout_alignEnd="@+id/scrView"
+            android:layout_alignBottom="@+id/scrView"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="189dp"
+            android:layout_marginTop="196dp"
+            android:layout_marginEnd="65dp"
+            android:layout_marginBottom="317dp"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="2" />
+
+        <Spinner
+            android:id="@+id/s_category2"
+            android:layout_width="201dp"
+            android:layout_height="29dp"
+            android:layout_alignStart="@+id/scrView"
+            android:layout_alignTop="@+id/scrView"
+            android:layout_alignEnd="@+id/scrView"
+            android:layout_alignBottom="@+id/scrView"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="294dp"
+            android:layout_marginEnd="54dp"
+            android:layout_marginBottom="158dp"
+            android:scrollbarStyle="insideOverlay" />
+
+        <EditText
+            android:id="@+id/et_mpk2"
+            android:layout_width="296dp"
+            android:layout_height="52dp"
+            android:layout_alignStart="@+id/scrView"
+            android:layout_alignTop="@+id/scrView"
+            android:layout_alignEnd="@+id/scrView"
+            android:layout_alignBottom="@+id/scrView"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="369dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="64dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAppearance="@color/dark_grey"
+            android:textSize="14sp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/ib_add_record2"
+            android:layout_width="57dp"
+            android:layout_height="57dp"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_alignBottom="@+id/scrView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="174dp"
+            android:layout_marginTop="456dp"
+            android:layout_marginEnd="167dp"
+            android:layout_marginBottom="13dp"
+            android:clickable="true"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="69dp"
+            android:layout_height="67dp"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_alignEnd="@+id/scrView"
+            android:layout_alignBottom="@+id/s_type2"
+            android:layout_marginStart="71dp"
+            android:layout_marginEnd="202dp"
+            android:layout_marginBottom="-14dp"
+            app:srcCompat="@drawable/icon_out_color_palete" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="67dp"
+            android:layout_height="65dp"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_alignEnd="@+id/scrView"
+            android:layout_alignBottom="@+id/s_type2"
+            android:layout_marginStart="210dp"
+            android:layout_marginEnd="65dp"
+            android:layout_marginBottom="-12dp"
+            app:srcCompat="@drawable/icon_in_color_palete" />
+
+        <ImageView
+            android:id="@+id/calendarView"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/scrView"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_alignBottom="@+id/scrView"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="79dp"
+            android:layout_marginTop="242dp"
+            android:layout_marginEnd="228dp"
+            android:layout_marginBottom="234dp"
+            app:srcCompat="@drawable/calendar_icon" />
+
+        <TextView
+            android:id="@+id/choosenDate"
+            android:layout_width="83dp"
+            android:layout_height="24dp"
+            android:layout_alignStart="@+id/scrView"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_alignEnd="@+id/scrView"
+            android:layout_alignBottom="@+id/ib_add_record2"
+            android:layout_marginStart="158dp"
+            android:layout_marginTop="258dp"
+            android:layout_marginEnd="111dp"
+            android:layout_marginBottom="231dp" />
+
+        <ImageButton
+            android:id="@+id/sendButtonEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_alignStart="@+id/b_return"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_alignEnd="@+id/scrView"
+            android:layout_alignBottom="@+id/scrView"
+            android:layout_marginStart="278dp"
+            android:layout_marginTop="-31dp"
+            android:layout_marginEnd="-2dp"
+            android:layout_marginBottom="512dp"
+            app:srcCompat="@android:drawable/ic_menu_send" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
